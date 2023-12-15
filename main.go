@@ -7,6 +7,12 @@ import (
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 )
 
+// Running http server
+// func main() {
+// 	http.Handle("/", http.FileServer(http.Dir(".")))
+// 	http.ListenAndServe(":3000", nil)
+// }
+
 type Game struct{}
 
 func (g *Game) Update() error {
